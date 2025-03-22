@@ -599,17 +599,12 @@ img {
 
 .process-timeline {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    row-gap: 40px;
 }
 
-@media (max-width: 1200px) {
-    .process-timeline {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .process-timeline {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -623,12 +618,16 @@ img {
 
 .process-step {
     background-color: white;
-    padding: 30px;
+    padding: 40px 30px;
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-md);
     text-align: center;
     transition: var(--transition);
     position: relative;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .process-step:hover {
