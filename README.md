@@ -57,5 +57,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For inquiries about this project or our services:
 
 - **Email**: hello@qalcul8.com
-- **Phone**: +233 (54) 895-2566
+- **Phone**: +233 (59) 983-2577
 - **Address**: 334 Emefs Estates, Afianya Mataheko, Tema
